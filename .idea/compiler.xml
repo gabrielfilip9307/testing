@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="lcmclient_newproject" />
+        <module name="automatic_tests" />
+        <module name="Amsys" />
+        <module name="amsys" />
+        <module name="Automatic Tests" />
+        <module name="teste automate" />
+        <module name="tests" />
+        <module name="New Project Amsys" />
+        <module name="amsys_automatic_tests" />
+        <module name="Teste automate Amsys" />
+        <module name="automatic test amsys" />
+        <module name="amsys test" />
+        <module name="WorkAmsys" />
+        <module name="Work" />
+        <module name="AmsysProject" />
+        <module name="new project" />
+        <module name="amsys-automatic tests" />
+        <module name="TSTauT" />
+        <module name="Amsys Project" />
+        <module name="Testing project" />
+        <module name="automatic_tests_java" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="11" />
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="amsys" options="" />
+    </option>
+  </component>
+</project>
