@@ -10,6 +10,8 @@ import utils.BaseTest;
 
 import java.io.IOException;
 
+import static utils.Constants.*;
+
 
 public class TableViewTests extends BaseTest {
 
@@ -25,7 +27,7 @@ public class TableViewTests extends BaseTest {
 
     @Test
     public void loginWithValidCredentials() {
-        loginPage.loginFunctionality("https://newdesign.lcm-client.com/abc/home", "gabriel admin", "Parola1993!");
+        loginPage.loginFunctionality(URL_ABC, GABRIEL_ACCOUNT, PASSWORD);
     }
 
     @Test
