@@ -8,6 +8,8 @@ import stagings.newDesign.pages.*;
 import utils.BasePage;
 import utils.BaseTest;
 
+import java.io.IOException;
+
 import static utils.Constants.*;
 
 
@@ -17,7 +19,7 @@ public class TableViewTests extends BaseTest {
     private BasePage basePage;
 
     @BeforeMethod
-    public void setUp() {
+    public void setUp() throws IOException {
         WebDriver driver = initializeDriver();
         loginPage = new LoginPage(driver);
         basePage = new BasePage(driver);
@@ -35,7 +37,7 @@ public class TableViewTests extends BaseTest {
 
     @Test
     public void loginWithValidCredentialsdb() {
-        loginPage.loginFunctionality("https://newdesign.lcm-client.com/login", "team db", "Parola1993!");
+        loginPage.loginFunctionality(URL_DB, "team db", "Parola1993!");
     }
 
     @Test
