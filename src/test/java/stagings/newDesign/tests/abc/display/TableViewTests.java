@@ -41,9 +41,6 @@ public class TableViewTests extends BaseTest {
     @Test
     public void loginWithValidCredentialscardio() {
         loginPage.loginFunctionality("https://newdesign.lcm-client.com/login", "team cardio", "Parola1993!");
-        System.out.println("test");
-        System.out.println("test");
-        System.out.println("test");
     }
 
 }
