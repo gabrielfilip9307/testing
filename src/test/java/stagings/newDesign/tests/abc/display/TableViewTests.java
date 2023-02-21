@@ -8,8 +8,6 @@ import stagings.newDesign.pages.*;
 import utils.BasePage;
 import utils.BaseTest;
 
-import java.io.IOException;
-
 import static utils.Constants.*;
 
 
@@ -19,7 +17,7 @@ public class TableViewTests extends BaseTest {
     private BasePage basePage;
 
     @BeforeMethod
-    public void setUp() throws IOException {
+    public void setUp() {
         WebDriver driver = initializeDriver();
         loginPage = new LoginPage(driver);
         basePage = new BasePage(driver);

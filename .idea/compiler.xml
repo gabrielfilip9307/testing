@@ -10,6 +10,7 @@
         <module name="lcmclient_newproject" />
         <module name="automatic_tests" />
         <module name="Amsys" />
+        <module name="testing" />
         <module name="amsys" />
         <module name="Automatic Tests" />
         <module name="teste automate" />
